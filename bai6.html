@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr =[15,80,9,6,5,7,55,64,82,66,];
+    let v=prompt('nhập 1 số:')
+    for (i=0;i<arr.length;i++)
+        if (v>0){
+            if (v==arr[i]) {
+                document.write('V là số nằm trong mảng');
+                break;
+            }else {
+                document.write('V ko phải là số nằm trong mảng')
+                break;
+            }
+        }else{
+            alert('Nhập lại')
+            break;
+        }
+</script>
+</body>
+</html>

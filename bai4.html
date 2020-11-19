@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = new Array();
+    let tt;
+    do {
+        let them = prompt('Nhập số: ');
+        document.write(them+',');
+        arr.push(them);
+
+        tt=prompt('Nhập tiếp chứ(c/k)?');
+    }while (tt=='c'||tt=='C')
+
+            arr.reverse().join(':');
+            document.write('<br>'+'<br>'+'đảo ngược:'+'<br>'+'<br>'+arr);
+</script>
+</body>
+</html>

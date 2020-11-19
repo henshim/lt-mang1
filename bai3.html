@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let myArr=[50,6,5,84,55,67,23,7,9,5];
+    let max=myArr[0];
+    let sum=0;
+    let avg=0;
+    for(i=0;i<myArr.length;i++)
+        if (myArr[i]>max){
+            max=myArr[i];
+            sum+=i;
+        }
+    avg=sum/myArr.length
+    document.write('max: '+max+' trung bình của các phần tử: '+avg );
+</script>
+</body>
+</html>
